@@ -1,4 +1,6 @@
-Canvas Boilerplate is the go-to solution for quickly creating modern canvas pieces using ES6 and webpack.
+I am considering, you have the basic knowledge about webpack, js and HTML. So, Careful with adding script tags in HTML.
+
+First Include Js to HTML using script tag and then In another script tag, Initialize the Canvas Effect using information given below.
 
 ## Getting Started
 
