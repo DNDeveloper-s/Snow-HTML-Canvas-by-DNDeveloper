@@ -2,7 +2,7 @@ Canvas Boilerplate is the go-to solution for quickly creating modern canvas piec
 
 ## Getting Started
 
-1.      Copy canvas.bundle.js file from dist folder to your project.
+1.      Copy canvas.bundle.js file from dist/js folder to your project.
 
 2.      In Html file, add 
 
