@@ -8,8 +8,14 @@ Canvas Boilerplate is the go-to solution for quickly creating modern canvas piec
 
                 <canvas id="canvas"><canvas>
 
+3.      Apply some styles like, Background of your container of canvas, As here it is "body"  
 
-3.      Add Script Tag and initialize the canvas effect 
+        body {
+           background: black;
+        }
+
+
+4.      Add Script Tag and initialize the canvas effect 
 
         Using,
 
