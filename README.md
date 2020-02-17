@@ -2,20 +2,28 @@ Canvas Boilerplate is the go-to solution for quickly creating modern canvas piec
 
 ## Getting Started
 
-1.  Clone the repo:
+1.      Copy canvas.bundle.js file from dist folder to your project.
 
-        git clone https://github.com/christopher4lis/canvas-boilerplate.git
+2.      In Html file, add 
 
-2.  Install dependencies:
+                <canvas id="canvas"><canvas>
 
-        yarn
 
-    or
+3.      Add Script Tag and initialize the canvas effect 
 
-        npm install
+        Using,
 
-3.  Run webpack:
+                init({
+                   radius: [1, 4],
+                   distance: [60, 90],
+                   particlesCount: 290,
+                   color: 'rgba(255, 255, 255, 0.85)'
+                });
 
-        npm start
+                radius: These are intervals from 1 to 4 it will be auto generated randomly between these intervals, Similarly for distance.
 
-Your canvas piece should open up automatically at http://localhost:3000 and you should see 'HTML CANVAS BOILERPLATE' on hover.
+        These all will be default values, If you wanna go with default values
+
+        Just use,
+
+                init();

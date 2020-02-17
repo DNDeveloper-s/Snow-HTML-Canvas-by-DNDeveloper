@@ -203,6 +203,10 @@ function () {
 var balls;
 
 function init(options) {
+  if (!options) {
+    options = {};
+  }
+
   var radii = options.radius || [1, 4];
   var dist = options.distance || [60, 90];
   var particleCount = options.particlesCount || 300;
@@ -232,12 +236,7 @@ function animate() {
   });
 }
 
-init({
-  radius: [1, 4],
-  distance: [60, 90],
-  particlesCount: 290,
-  color: 'rgba(255, 255, 255, 0.85)'
-});
+init();
 animate();
 
 /***/ }),
